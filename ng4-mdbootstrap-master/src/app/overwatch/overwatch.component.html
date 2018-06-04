@@ -1,0 +1,16 @@
+<div class="card" *ngIf="hero">
+  <div class="card-header">{{hero.name | uppercase}}
+    <img class="pull-right" src="https://storage.googleapis.com/ppanda/images/ow/hero/icon/518/icon-portrait.png">
+  </div>
+
+  <div class="card-block">
+    <ul class="list-group">
+      <li class="list-group-item">Real name:
+        <strong>{{hero.real_name}}</strong>
+      </li>
+      <li class="list-group-item">Role:
+        <strong>{{hero.role}}</strong>
+      </li>
+    </ul>
+  </div>
+</div>
